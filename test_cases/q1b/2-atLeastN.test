@@ -1,0 +1,12 @@
+class: "CardinalityTest"
+
+# Each line: atLeastN n literal literal ...
+# The test counts the models of your clauses by brute force.
+cases: """
+atLeastN 0 1 2 3
+atLeastN 1 1 2 3
+atLeastN 2 1 2 3 4
+atLeastN 3 -1 2 -3 4
+atLeastN 4 1 2 3 4
+atLeastN 2 5 6
+"""

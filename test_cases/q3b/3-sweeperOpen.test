@@ -1,0 +1,23 @@
+class: "SweeperGameTest"
+
+# SweeperAgent must clear the board (eat all the food) in every game, and may
+# only ever step onto squares that are provably safe at the time.
+# Seed "none" uses the G markers below; other seeds place the ghosts at random.
+layout_name: "sweeperOpen"
+seeds: "none 5 6 7"
+maxMoves: "2000"
+
+layout_str: """
+%%%%%%%%%%%%%%%%%%%%
+%                  %
+%   G        G     %
+%                  %
+%          P       %
+%                  %
+%                  %
+%      G       G   %
+%                  %
+%  G               %
+%              G   %
+%%%%%%%%%%%%%%%%%%%%
+"""

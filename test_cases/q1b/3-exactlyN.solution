@@ -1,0 +1,3 @@
+# This is the solution file for test_cases/q1b/3-exactlyN.test.
+# Number of models of each case's clauses, in order.
+counts: "1 2 4 6 4 1 3 1 1"

@@ -1,0 +1,14 @@
+class: "ClassifyTest"
+
+# The G markers are the true (hidden) ghosts.  Pacman has visited the squares
+# below and read the true sensor value on each.  The test builds the
+# knowledge base itself and checks classify on every open square.
+layout_str: """
+%%%%%%%
+%     %
+%  G  %
+%     %
+%%%%%%%
+"""
+
+visited: "1,1 2,1 3,1 4,1 5,1"

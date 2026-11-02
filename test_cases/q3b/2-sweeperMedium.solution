@@ -1,0 +1,2 @@
+# This is the solution file for test_cases/q3b/2-sweeperMedium.test.
+# SweeperAgent must clear the board in every game, only ever stepping onto provably safe squares.

@@ -1,0 +1,27 @@
+class: "PerceptTest"
+
+# Each line: x y count.  Pacman reads `count` on square (x, y) of this board.
+# Your clauses must be equivalent to the reference clauses.
+
+layout_str: """
+%%%%%%%%
+%      %
+% %%   %
+%      %
+%%%%%%%%
+"""
+
+cases: """
+4 2 0
+4 2 1
+4 2 2
+4 2 3
+5 2 4
+5 2 2
+1 1 0
+1 1 1
+1 1 2
+6 3 1
+1 2 2
+5 1 3
+"""
